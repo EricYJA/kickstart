@@ -1,0 +1,360 @@
+
+### Model 1 ###
+
+This is a program based on KNN modle!!!
+You have three options (original/mean/random/and/or). You can choose whatever you want among the three. Please note that there are different
+ requiremens for different measure.
+About flag: This is a way of taking nearby points. It can only be m, f, a. (m: majority/f: first/a: average)
+if you want to use original. Note that k must smaller than the total number.
+if you want to use mean. Good for you. You choose the simplest one.
+if you want to use random. Note that k must smaller than the total random sample number.
+if you want to use (or) or (and). Good luck. They are really unreliable.
+Start the exciting journey~~~
+
+Please choose a modle: original
+Please choose how many nearest points you want to choose: 10
+Please choose a flag (m/f/a): m
+Begining of Training @ 2017-05-11 14:34:08
+----------------------------------------
+             Training Info
+----------------------------------------
+               0 = 100
+               1 =  94
+               2 =  93
+               3 = 105
+               4 =  87
+               5 =  81
+               6 =  95
+               7 =  90
+               8 = 109
+               9 =  89
+----------------------------------------
+  Total Samples = 943
+----------------------------------------
+----------------------------------------
+              Testing Info
+----------------------------------------
+      0 =  19,   1,   95%
+      1 =  20,   0,  100%
+      2 =  25,   0,  100%
+      3 =  18,   0,  100%
+      4 =  21,   4,   84%
+      5 =  15,   1,   94%
+      6 =  16,   0,  100%
+      7 =  19,   0,  100%
+      8 =  15,   2,   88%
+      9 =  20,   0,  100%
+----------------------------------------
+          Accuracy = 95.92%
+     Correct/Total = 188/196
+----------------------------------------
+Ending of Training @ 2017-05-11 14:34:38
+The predictions are:
+ 5
+ 2
+ 1
+ 8
+ 2
+ 9
+ 9
+ 5
+
+
+### Model 2 ###
+
+This is a program based on KNN modle!!!
+You have three options (original/mean/random/and/or). You can choose whatever you want among the three. Please note that there are different
+ requiremens for different measure.
+About flag: This is a way of taking nearby points. It can only be m, f, a. (m: majority/f: first/a: average)
+if you want to use original. Note that k must smaller than the total number.
+if you want to use mean. Good for you. You choose the simplest one.
+if you want to use random. Note that k must smaller than the total random sample number.
+if you want to use (or) or (and). Good luck. They are really unreliable.
+Start the exciting journey~~~
+
+Please choose a modle: mean
+Begining of Training @ 2017-05-11 14:41:21
+----------------------------------------
+             Training Info
+----------------------------------------
+               0 = 100
+               1 =  94
+               2 =  93
+               3 = 105
+               4 =  87
+               5 =  81
+               6 =  95
+               7 =  90
+               8 = 109
+               9 =  89
+----------------------------------------
+  Total Samples = 943
+----------------------------------------
+----------------------------------------
+              Testing Info
+----------------------------------------
+      0 =  19,   1,   95%
+      1 =  18,   2,   90%
+      2 =  24,   1,   96%
+      3 =  16,   2,   89%
+      4 =  23,   2,   92%
+      5 =  15,   1,   94%
+      6 =  16,   0,  100%
+      7 =  19,   0,  100%
+      8 =  13,   4,   76%
+      9 =  15,   5,   75%
+----------------------------------------
+          Accuracy = 90.82%
+     Correct/Total = 178/196
+----------------------------------------
+Ending of Training @ 2017-05-11 14:41:21
+The predictions are:
+ 5
+ 2
+ 1
+ 8
+ 2
+ 9
+ 9
+ 5
+
+
+### Model 3 ###
+
+This is a program based on KNN modle!!!
+You have three options (original/mean/random/and/or). You can choose whatever you want among the three. Please note that there are different
+ requiremens for different measure.
+About flag: This is a way of taking nearby points. It can only be m, f, a. (m: majority/f: first/a: average)
+if you want to use original. Note that k must smaller than the total number.
+if you want to use mean. Good for you. You choose the simplest one.
+if you want to use random. Note that k must smaller than the total random sample number.
+if you want to use (or) or (and). Good luck. They are really unreliable.
+Start the exciting journey~~~
+
+Please choose a modle: random
+Please choose how many nearest points you want to choose: 3
+Please choose a flag (m/f/a): m
+Please input how many random sample you want: 50
+Begining of Training @ 2017-05-11 14:43:42
+----------------------------------------
+             Training Info
+----------------------------------------
+               0 = 100
+               1 =  94
+               2 =  93
+               3 = 105
+               4 =  87
+               5 =  81
+               6 =  95
+               7 =  90
+               8 = 109
+               9 =  89
+----------------------------------------
+  Total Samples = 943
+----------------------------------------
+----------------------------------------
+              Testing Info
+----------------------------------------
+      0 =  19,   1,   95%
+      1 =  18,   2,   90%
+      2 =  25,   0,  100%
+      3 =  18,   0,  100%
+      4 =  22,   3,   88%
+      5 =  16,   0,  100%
+      6 =  16,   0,  100%
+      7 =  19,   0,  100%
+      8 =  15,   2,   88%
+      9 =  18,   2,   90%
+----------------------------------------
+          Accuracy = 94.9%
+     Correct/Total = 186/196
+----------------------------------------
+Ending of Training @ 2017-05-11 14:43:58
+The predictions are:
+ 5
+ 2
+ 1
+ 8
+ 2
+ 9
+ 9
+ 5
+
+
+### Model 4 ###
+
+This is a program based on KNN modle!!!
+You have three options (original/mean/random/and/or). You can choose whatever you want among the three. Please note that there are different
+ requiremens for different measure.
+About flag: This is a way of taking nearby points. It can only be m, f, a. (m: majority/f: first/a: average)
+if you want to use original. Note that k must smaller than the total number.
+if you want to use mean. Good for you. You choose the simplest one.
+if you want to use random. Note that k must smaller than the total random sample number.
+if you want to use (or) or (and). Good luck. They are really unreliable.
+Start the exciting journey~~~
+
+Please choose a modle: or
+Begining of Training @ 2017-05-11 14:45:42
+----------------------------------------
+             Training Info
+----------------------------------------
+               0 = 100
+               1 =  94
+               2 =  93
+               3 = 105
+               4 =  87
+               5 =  81
+               6 =  95
+               7 =  90
+               8 = 109
+               9 =  89
+----------------------------------------
+  Total Samples = 943
+----------------------------------------
+----------------------------------------
+              Testing Info
+----------------------------------------
+      0 =  19,   1,   95%
+      1 =   1,  19,    5%
+      2 =   0,  25,    0%
+      3 =   0,  18,    0%
+      4 =   0,  25,    0%
+      5 =   0,  16,    0%
+      6 =  16,   0,  100%
+      7 =   2,  17,   11%
+      8 =   0,  17,    0%
+      9 =   0,  20,    0%
+----------------------------------------
+          Accuracy = 19.39%
+     Correct/Total = 38/196
+----------------------------------------
+Ending of Training @ 2017-05-11 14:45:42
+The predictions are:
+ 6
+ 6
+ 6
+ 6
+ 6
+ 0
+ 0
+ 6
+
+
+### Model 5 ###
+
+This is a program based on KNN modle!!!
+You have three options (original/mean/random/and/or). You can choose whatever you want among the three. Please note that there are different
+ requiremens for different measure.
+About flag: This is a way of taking nearby points. It can only be m, f, a. (m: majority/f: first/a: average)
+if you want to use original. Note that k must smaller than the total number.
+if you want to use mean. Good for you. You choose the simplest one.
+if you want to use random. Note that k must smaller than the total random sample number.
+if you want to use (or) or (and). Good luck. They are really unreliable.
+Start the exciting journey~~~
+
+Please choose a modle: and
+Begining of Training @ 2017-05-11 14:46:11
+----------------------------------------
+             Training Info
+----------------------------------------
+               0 = 100
+               1 =  94
+               2 =  93
+               3 = 105
+               4 =  87
+               5 =  81
+               6 =  95
+               7 =  90
+               8 = 109
+               9 =  89
+----------------------------------------
+  Total Samples = 943
+----------------------------------------
+----------------------------------------
+              Testing Info
+----------------------------------------
+      0 =  17,   3,   85%
+      1 =   0,  20,    0%
+      2 =  25,   0,  100%
+      3 =   0,  18,    0%
+      4 =   0,  25,    0%
+      5 =   0,  16,    0%
+      6 =   1,  15,    6%
+      7 =   2,  17,   11%
+      8 =   0,  17,    0%
+      9 =   0,  20,    0%
+----------------------------------------
+          Accuracy = 22.96%
+     Correct/Total = 45/196
+----------------------------------------
+Ending of Training @ 2017-05-11 14:46:12
+The predictions are:
+ 2
+ 2
+ 2
+ 2
+ 2
+ 0
+ 0
+ 2
+
+
+### Model-Highest Accuracy ###
+
+ This is a program based on KNN modle!!!
+You have three options (original/mean/random/and/or). You can choose whatever you want among the three. Please note that there are different
+ requiremens for different measure.
+About flag: This is a way of taking nearby points. It can only be m, f, a. (m: majority/f: first/a: average)
+if you want to use original. Note that k must smaller than the total number.
+if you want to use mean. Good for you. You choose the simplest one.
+if you want to use random. Note that k must smaller than the total random sample number.
+if you want to use (or) or (and). Good luck. They are really unreliable.
+Start the exciting journey~~~
+
+Please choose a modle: original
+Please choose how many nearest points you want to choose: 4
+Please choose a flag (m/f/a): m
+Begining of Training @ 2017-05-11 15:07:04
+----------------------------------------
+             Training Info
+----------------------------------------
+               0 = 100
+               1 =  94
+               2 =  93
+               3 = 105
+               4 =  87
+               5 =  81
+               6 =  95
+               7 =  90
+               8 = 109
+               9 =  89
+----------------------------------------
+  Total Samples = 943
+----------------------------------------
+----------------------------------------
+              Testing Info
+----------------------------------------
+      0 =  19,   1,   95%
+      1 =  20,   0,  100%
+      2 =  25,   0,  100%
+      3 =  18,   0,  100%
+      4 =  22,   3,   88%
+      5 =  16,   0,  100%
+      6 =  16,   0,  100%
+      7 =  19,   0,  100%
+      8 =  15,   2,   88%
+      9 =  20,   0,  100%
+----------------------------------------
+          Accuracy = 96.94%
+     Correct/Total = 190/196
+----------------------------------------
+Ending of Training @ 2017-05-11 15:07:34
+The predictions are:
+ 5
+ 2
+ 1
+ 8
+ 2
+ 9
+ 9
+ 5
