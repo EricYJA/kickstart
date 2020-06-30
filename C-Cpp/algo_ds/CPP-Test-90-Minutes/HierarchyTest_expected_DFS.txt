@@ -1,0 +1,24 @@
+computer
+  c
+    src
+      main.c
+      file.c
+      hal
+        windows.c
+        linux.c
+        Makefile
+      Makefile
+    Makefile
+    include
+      file.h
+      os.h
+    bin
+      release
+        a.exe
+        a.pdb
+      debug
+        ad.pdb
+        ad.exe
+  d
+    downloads
+    Data

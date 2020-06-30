@@ -1,0 +1,24 @@
+computer
+  d
+  c
+    Data
+    downloads
+    bin
+    include
+    Makefile
+    src
+      debug
+      release
+        ile.h
+      Makefile
+      hal
+        ain.c
+          d.pdb
+          .exe
+        s.h
+        Makefile
+          indows.c
+        ile.c
+          d.exe
+          .pdb
+          inux.c
