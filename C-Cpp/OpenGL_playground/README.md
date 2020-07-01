@@ -36,4 +36,26 @@ Still under maintenance, a modern replacemnent of GLUT
 
 Recall that OpenGL is just an interface. The implemmentation requires the graphics card producer to implement. When choosing the driver, it's desogned to use a function pointer and determine the final version of function during runtime. Based on this feature, we have **GLEW**, **GL3W**, **GLAD** ... to use. 
 
+---
 
+### Basic Concepts
+
+**VBO & VAO**
+
+**VBO** (Vertex Buffer Object) worked as the memory buffer in the graphics memory to store all kinds of vertex data. When rendering, GPU could get the vertex data directly from the GPU memory without requesting it from CPU, achieving higher performance. 
+
+We could request many VBO. They all have their own ID for address reference. Using this ID, we could easily finish data retrieval/modification operation. 
+
+If we consider **VBO** as the grouping and abstraction for the vertex data. Then, we could consider **VAO** as the grouping and abstraction of **VBO**. **VAO** specifies the model's vertex reference in **VBO**. When drawing **VAO**, the machine would find all the requested **VBO** binding to the **VAO**. 
+
+---
+
+### Pipeline
+
+Vertex Data (Primitives) ->
+Vertex Shader (Primitive Assembly) ->
+Geometry Shader ->
+Tessellation Shader ->
+Rasterization ->
+Fragment Shader ->
+Test and Binding -> Display
